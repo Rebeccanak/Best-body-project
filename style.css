@@ -504,7 +504,165 @@ footer {
 
 /* video */
 
+/* 
+media queries start me */
 
+
+/* Extra small devices (phones) */
+@media only screen and (max-width: 480px) {
+  .join {
+    margin-left: 10px;
+  }
+  .join h1 {
+    font-size: 30px;
+  }
+  .join p {
+    font-size: 20px;
+  }
+  #image {
+    margin-left: 6%;
+    margin-top: -100px;
+    width: 100px;
+  }
+  .control {
+    display: flex;
+    margin-left: 5%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .control p {
+    padding: 20px;
+    margin: 5px;
+  }
+  .control #perm,
+  .control #feel,
+  .control #meal {
+    padding: 30px;
+  }
+  .struggle {
+    margin-left: 10%;
+    margin-top: -20%;
+    font-size: 18px;
+  }
+  #food {
+    width: 100%;
+  }
+  .best h1 {
+    margin-left: 20%;
+    margin-top: 30px;
+    font-size: 40px;
+  }
+  .best p {
+    font-size: 18px;
+  }
+  #becky {
+    font-size: 16px;
+  }
+  #bec {
+    font-size: 30px;
+  }
+  hr {
+    width: 50%;
+  }
+  .big #pe,
+  .big #ko,
+  .big #yo {
+    width: 80%;
+  }
+  #hold {
+    width: 45%;
+  }
+  #fit {
+    margin-left: 220px;
+  }
+  .plan {
+    display: flex;
+    flex-direction: column;
+  }
+  .plan p {
+    padding: 20px;
+    margin: 5px;
+  }
+  h5 {
+    font-size: 16px;
+  }
+  .alt {
+    width: 250px;
+    height: 300px;
+  }
+  .images {
+    width: 200px;
+    height: 300px;
+  }
+  .text,
+  .text1 {
+    font-size: 0.8rem;
+    width: 200px;
+    height: 200px;
+  }
+  .text,
+  .text1 {
+    margin-left: 200px;
+  }
+  .alt1 {
+    margin-top: 10px;
+  }
+  .images1 {
+    width: 200px;
+    height: auto;
+  }
+  .description {
+    font-size: 12px;
+  }
+  .form {
+    width: 40%;
+  }
+  .form > input {
+    width: 100%;
+  }
+  .form > button {
+    width: 80%;
+  }
+  .start,
+  .year {
+    width: 100%;
+  }
+  .start,
+  .year button {
+    width: 50%;
+  }
+  .all {
+    width: 60%;
+    margin-left: 5%;
+  }
+  #videos {
+    width: 50%;
+    margin-left: 5%;
+  }
+  #video {
+    width: 100%;
+    margin-left: 0;
+  }
+  .year2,
+  .start {
+    margin-bottom: 20px;
+  }
+  #female img {
+    margin-bottom: 10%;
+    margin-right: 0;
+  }
+  .quotes img {
+    width: 50px;
+  }
+  #second {
+    width: 100px;
+  }
+  #ba{
+
+  }
+  
+
+  }
 
 
 
