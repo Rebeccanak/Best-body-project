@@ -1,0 +1,515 @@
+html{
+    scroll-behavior: smooth;
+}
+nav{
+border: solid;
+padding: 4px;
+background-color: #8b088f36;
+border-color: rgb(10, 108, 141);
+}
+ul h1{
+  margin-bottom: -44px;
+ 
+}
+
+
+nav ul li{
+    display: contents;
+
+    
+}
+ a{
+margin-left: 100px;
+text-decoration: none;
+color: rgb(10, 108, 141);
+}
+#but{
+    padding: 20px;
+    color:rgb(10, 108, 141) ;
+    background-color: #ee45ee38;
+    border-radius: 10px;
+}
+.join {
+    margin-left: 220px;
+   
+}
+.join h1{
+    color: #8a088f;
+    font-size: 50px;
+}
+.join p{
+    font-size: 30px;
+    color:  #8a088f;
+}
+#habits{
+    font-size: 20px;
+}
+#image{
+    margin-left: 60%;
+    margin-top: -600px;
+    width: 400px;
+    
+}
+.control{
+    display: flex;
+    margin-left: 15%;
+}
+.control p{
+    border: solid ;
+    border-color: rgb(10, 108, 141);
+    margin: 10px;
+    border-radius: 5px;
+    padding: 40px;
+
+}
+ .control #perm, #feel, #meal{
+    padding: 60px;
+    margin-right: 30px;
+    color: rgb(10, 108, 141);
+    margin-right: 20px;
+}
+.struggle{
+    margin-left: 60%;
+    margin-top: -30%;
+    color: rgb(10, 108, 141);
+    
+}
+#food{
+    width: 700px;
+}
+.sec{
+    background-color: white;
+    padding: 40px;
+}
+.best h1{
+  margin-left: 40%;
+  margin-top: 60px;
+  font-size: 60px;
+  color: rgb(10, 108, 141);
+}
+.best p{
+    text-align: center;
+}
+#becky{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(10, 108, 141);
+}
+#bec{
+   font-size: 40px; 
+   color: rgb(10, 108, 141);
+}
+hr{
+    width: 30%;
+    margin-top: -40px;
+}
+.big{
+margin-left: 3%;
+}
+
+h6{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(10, 108, 141);
+}
+
+.big  #pe, #ko, #yo{
+width: 30%;
+margin: 20px;
+border-radius: 20px;
+margin-left: 20px;
+}
+ #hold{
+   width: 22.5%;
+   
+}
+#fit{
+    margin-left: 440px;
+    
+}
+.alt{
+    
+}
+.plan{
+    display: flex;
+
+}
+
+
+.plan p{
+    border: solid ;
+    border-color: rgb(10, 108, 141);
+    margin: 10px;
+    border-radius: 5px;
+    padding: 40px;
+    background-color: rgba(115, 3, 180, 0.103);
+}
+h5{
+    text-align: center;
+    font-size: 20px;
+    color: hsl(300, 6%, 16%);
+}
+.alt{
+    position: relative;
+    width: 350px;
+    height: 400px;
+    cursor: pointer;
+    /* overflow: hidden; */
+
+}
+.images{
+    width: 300px;
+    height: 400px;
+
+}
+.text,.text1{
+    font-size: 1.2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: hsla(203, 96%, 10%, 0.548);
+    width: 564px;
+    height: 563px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    visibility: hidden;
+    opacity: 40;
+}
+ .text , .text1{
+ margin-left: 440px;
+
+ 
+}
+.alt:hover .text ,.text1{
+    visibility: visible;
+    
+
+
+}
+.images, .images1 img{
+    object-fit: cover;
+    transition: 7s ease;
+
+}
+.images1, #fit1 img{
+    display: flex;
+    margin-left: 0px;
+    
+}
+#fit1{
+    margin: 20px;
+    width: 260px;
+    height: 350px;
+    margin-left: 30px;
+}
+/* Define your styles here */
+
+/* Styling for the container */
+.alt1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  /* Styling for the images container */
+  .images1 {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Styling for the images */
+  .images1 img, .images3 img{
+    /* width: 150px;
+    height: 150px; */
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  /* Styling for the hover effect */
+  .images1 img:hover {
+    transform: scale(1.2);
+  }
+  
+  .images1 img:hover ~ .alt2 .images3 img:first-child {
+    display: none;
+  }
+  
+  .images1 img:hover ~ .alt2 .images3 img:last-child {
+    display: inline-block;
+  }
+  
+  .images3 img {
+    display: none;
+    
+  }
+  
+  /* Styling for the description text */
+  .description {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+  /* }
+.images3{
+    display: flex; */
+}  
+
+/* //nav bar */
+
+
+
+
+.form{
+    margin: 0 auto;
+    width: 40%;
+   
+
+    /* border: solid green; */
+}
+.form > input{
+    padding: 18px 20px;
+    border: solid 3px  hwb(300 18% 16% / 0.185);
+    border-radius: 5px;
+    width: 70%;
+    font-size: 18px;
+    color: rgb(10, 108, 141);
+}
+.form >button{
+    border: none;
+    outline: none;
+    background-color:rgba(122, 7, 113, 0.966);
+    padding: 12px 20px;
+    border-radius: 5px;
+    color: #eee7ec8e;
+    font-size: 18px;
+}
+.start, .year{
+    border: solid;
+    padding: 40px;
+    width: 250px;
+    display: grid;
+    margin: 30px;
+    border-radius: 20px;
+   
+    
+}
+.all{
+    display: flex;
+    margin-left: 20%;
+    
+   
+    
+    
+}
+section .all{
+    width: 100%;
+    background-color: rgb(75, 78, 78);
+}
+
+
+.big {
+    display: flex;
+  }
+  
+  .big img {
+    /* width: 200px;
+    height: 200px; */
+    object-fit: cover;
+    margin: 10px;
+    transition: transform 0.3s, filter 0.3s;
+    cursor: pointer;
+  }
+  
+  .big img:hover,
+  .big img:focus {
+    transform: scale(1.2);
+    filter: brightness(1.2);
+  }
+  
+  .big img:active {
+    transform: scale(0.9);
+    filter: brightness(0.8);
+  }
+
+  .start {
+    text-align: center;
+  }
+  
+  .start button {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .start button:hover {
+    background-color: rgba(7, 7, 167, 0.719);
+  }
+  
+  .start button:active {
+    background-color: rgb(176, 16, 182);
+  }
+
+  .year {
+    text-align: center;
+  }
+  
+  .year button {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .year button:hover {
+    background-color: blue;
+  }
+  
+  .year button:active {
+    background-color: red;
+  }
+   .all{
+    color: rgb(30, 75, 158);
+    padding-right: 40px;
+  }
+  #videos{
+    margin-left: 20%;
+    width: 800px;
+   
+  }
+  #video{
+    margin-left: 20%;
+    width: 400px;
+    cursor: pointer;
+  
+   
+  }
+
+
+  .year2  {
+    text-align: center;
+  }
+  
+  .year2 button {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 1000;
+
+  }
+  
+  .year2 button:hover {
+    background-color: blue;
+  }
+  
+  .year2 button:active {
+    background-color: red;
+
+  }
+#female img{
+ margin-bottom: 25%;
+ margin-right: 10%;
+ 
+}
+.quotes img{
+  margin: 30px;
+  margin-left: 40PX;
+  width: 250PX;
+}
+#second{
+  width: 210px;
+
+
+}
+#bae, #kenyan, #model{
+  width: 300px;
+}
+#kenyan{
+  width: 240px;
+}
+#model{
+  width: 360px;
+}
+span{
+  color: #bb069d;
+  font-size: 25px;
+}
+/* footer div */
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 29px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer-div {
+  width: 20%;
+  margin-bottom: 20px;
+}
+.footer-div h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.footer-div p {
+  font-size: 14px;
+  margin-bottom: 5px;
+
+
+
+}
+/* quotes animating */
+
+.quotes img {
+ 
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.quotes img:hover {
+  transform: scale(1.2);
+  filter: brightness(1.2);
+}
+
+.quotes img:active {
+  transform: scale(1.1);
+  filter: brightness(1.1);
+}
+.move-body p{
+  color: #f3e8f1;
+  margin-left: 22%;
+  margin-top: -18%;
+  font-size: 30px;
+}
+
+/* video */
+
+
+
+
+
+
+  
+
+
+
